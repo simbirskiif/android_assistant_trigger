@@ -6,4 +6,5 @@
     <string name="text_error_label">Unavailable</string>
     <string name="text_error_start_assistant">Assistant unavible</string>
     <string name="text_error_open_digital_assistant_setting">Unable to open</string>
+    <string name="text_assistant_activated_after_ms">"The assistant is activated after ms: "</string>
 </resources>

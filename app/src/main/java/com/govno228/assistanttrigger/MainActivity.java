@@ -14,8 +14,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Intent intent = new Intent(Intent.ACTION_VOICE_COMMAND);
-        startActivity(intent);
+        Intent intent = new Intent(this, AssistantService.class);
+        startService(intent);
         finish();
     }
 }

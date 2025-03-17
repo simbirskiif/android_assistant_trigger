@@ -6,4 +6,5 @@
     <string name="text_error_label">Недоступно</string>
     <string name="text_error_start_assistant">Assistant недоступен</string>
     <string name="text_error_open_digital_assistant_setting">Невозможно открыть</string>
+    <string name="text_assistant_activated_after_ms">"Помощник активируется спустя мс: "</string>
 </resources>
