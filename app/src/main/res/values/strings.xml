@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name" translatable="false">Assistant Trigger</string>
+    <string name="text_call_assist">Call an Google Assisstant</string>
+    <string name="text_short_label">Settings</string>
+    <string name="text_long_label">Open Settings</string>
+    <string name="text_error_label">Unavailable</string>
+    <string name="text_error_start_assistant">Assistant unavible</string>
+    <string name="text_error_open_digital_assistant_setting">Unable to open</string>
+</resources>

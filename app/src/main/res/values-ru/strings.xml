@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="text_call_assist">Вызвать Google Assistant</string>
+    <string name="text_short_label">Настройки</string>
+    <string name="text_long_label">Открыть настройки</string>
+    <string name="text_error_label">Недоступно</string>
+    <string name="text_error_start_assistant">Assistant недоступен</string>
+    <string name="text_error_open_digital_assistant_setting">Невозможно открыть</string>
+</resources>

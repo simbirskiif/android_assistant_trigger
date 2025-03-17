@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/baseline_settings_24"
+        android:shortcutDisabledMessage="@string/text_error_label"
+        android:shortcutId="open_settings"
+        android:shortcutLongLabel="@string/text_long_label"
+        android:shortcutShortLabel="@string/text_short_label">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.govno228.assistanttrigger.SettingsActivity"
+            android:targetPackage="com.govno228.assistanttrigger" />
+    </shortcut>
+</shortcuts>
