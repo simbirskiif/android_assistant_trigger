@@ -53,7 +53,7 @@ public class SettingsActivity extends AppCompatActivity {
                 try {
                     startActivity(intent);
                 } catch (ActivityNotFoundException e) {
-                    Toast.makeText(getApplicationContext(), "Голосовой помощник не найден", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), R.string.text_error_start_assistant, Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -67,7 +67,7 @@ public class SettingsActivity extends AppCompatActivity {
                 if (intent.resolveActivity(getPackageManager()) != null) {
                     startActivity(intent);
                 } else {
-                    Toast.makeText(getApplicationContext(), "ManageAssistActivity не найдена", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), R.string.text_error_open_digital_assistant_setting, Toast.LENGTH_SHORT).show();
                 }
             }
         });
